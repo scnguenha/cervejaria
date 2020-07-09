@@ -34,6 +34,9 @@ public class Estoque {
 		this.cervejas.put(cerveja.getNome(), cerveja);
 	}
 	
+	public Cerveja recuperarCervejaPeloNome(String nome) {
+		return this.cervejas.get(nome);
+	}
 	/*
 	 * public Collection<Cerveja> listarCervejas() { return new ArrayList<Cerveja>(this.cervejas); }
 	 * 

@@ -41,7 +41,7 @@ public class ClientesServlet extends HttpServlet {
 				builder.append(line);
 				builder.append("\n");
 			}
-			System.out.println(builder.toString());
+			//System.out.println(builder.toString());
 			clientes = builder.toString();
 		} catch (Exception e) {
 			// TODO: handle exception
