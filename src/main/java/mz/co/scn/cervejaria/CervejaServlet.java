@@ -15,13 +15,6 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
-import javax.xml.stream.XMLStreamWriter;
-import javax.xml.transform.Result;
-
-import org.codehaus.jettison.mapped.MappedNamespaceConvention;
-import org.codehaus.jettison.mapped.MappedXMLStreamWriter;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 import mz.co.scn.cervejaria.model.Cerveja;
 import mz.co.scn.cervejaria.model.Estoque;
